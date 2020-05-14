@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting elements & retriving object</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <!-- selecting elements with jQuery('id') function
+        $('#id') and the class will be $('.id') $(tagname)
+        mix => $('tagName#idName.className')
+    -->
+
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+        <li>List item 6</li>
+        <li>List item 7</li>
+        <li>List item 8</li>
+        <li>List item 9</li>
+        <li>List item 10</li>
+    </ul>
+
+
+    <script type="text/javascript">
+
+        var all_li = document.querySelectorAll("li");
+
+        var jquery = $("li");
+        jquery.css("color", "orange").css("font-size", "25px");
+
+        
+
+
+
+    </script>
+</body>
+</html>
